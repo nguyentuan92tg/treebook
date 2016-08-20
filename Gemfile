@@ -10,6 +10,8 @@ gem 'devise'
 
 gem 'bcrypt-ruby', '3.1.1.rc1', :require => 'bcrypt'
 
+gem 'simple_form'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
