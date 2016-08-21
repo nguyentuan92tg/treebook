@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'profile/show'
+
   devise_for :users
 
   devise_scope :user do
@@ -9,5 +11,7 @@ Rails.application.routes.draw do
   resources :statuses
   get 'feed', to: 'statuses#index', as: :feed
   root to: 'statuses#index'
+
+  get '/:id', to: 'profiles#show'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
