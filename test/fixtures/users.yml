@@ -2,5 +2,3 @@ tuan:
   first_name: "Tuan"
   last_name: "Nguyen"
   email: "tuan@gmail.com"
-  password: "password"
-  password_confirmation: "password"
